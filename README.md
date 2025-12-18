@@ -7,7 +7,7 @@
   - `d2`: 64×64, bf16 (intermediate/compute buffer)
 - Generated the oracle (`targets/QKV/oracle/`) by running `python QKV.py`.
 
-**Video:** [Exercise1](./video/Exercise1.mkv)
+**Video:** [Exercise1](./video/Exercise1.mp4)
 
 ---
 
@@ -17,7 +17,7 @@
   - `Attention(Q, K, V) = softmax(Q × Kᵀ) × V`
 - Verified the output against FPGA golden data with `python test_qkv.py`.
 
-**Video:** [Exercise2](./video/Exercise2.mkv)
+**Video:** [Exercise2](./video/Exercise2.mp4)
 
 ---
 
@@ -29,6 +29,6 @@
 - Re-verified with the same `python test_qkv.py` against FPGA golden data.
 
 **Videos:**
-- [Exercise3-1](./video/Exercise3-1.mkv)
-- [Exercise3-2](./video/Exercise3-2.mkv)
-- [Exercise3-3](./video/Exercise3-3.mkv)
+- [Exercise3-1](./video/Exercise3-1.mp4)
+- [Exercise3-2](./video/Exercise3-2.mp4)
+- [Exercise3-3](./video/Exercise3-3.mp4)
