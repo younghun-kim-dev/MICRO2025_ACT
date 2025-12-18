@@ -7,7 +7,7 @@
   - `d2`: 64×64, bf16 (intermediate/compute buffer)
 - Generated the oracle (`targets/QKV/oracle/`) by running `python QKV.py`.
 
-**Video:** [Exercise1](./video/Exercise1.mp4)
+https://github.com/user-attachments/assets/67203785-be4c-4222-9dd8-338cbb330d68
 
 ---
 
@@ -17,7 +17,7 @@
   - `Attention(Q, K, V) = softmax(Q × Kᵀ) × V`
 - Verified the output against FPGA golden data with `python test_qkv.py`.
 
-**Video:** [Exercise2](./video/Exercise2.mp4)
+https://github.com/user-attachments/assets/f7db9599-c22a-49d6-a04e-4fcdccf767bb
 
 ---
 
@@ -28,7 +28,6 @@
 - Built the backend and compiled an HLO implementation of attention (`attention.hlo`) down to QKV assembly.
 - Re-verified with the same `python test_qkv.py` against FPGA golden data.
 
-**Videos:**
-- [Exercise3-1](./video/Exercise3-1.mp4)
-- [Exercise3-2](./video/Exercise3-2.mp4)
-- [Exercise3-3](./video/Exercise3-3.mp4)
+https://github.com/user-attachments/assets/123eea8f-bfbf-4a79-ad3e-3f4aa989b0e4
+https://github.com/user-attachments/assets/2f28aa09-3e96-4992-966d-b7ad73af40a0
+https://github.com/user-attachments/assets/5e2cad9f-b368-4606-a848-bdddc23d548b
